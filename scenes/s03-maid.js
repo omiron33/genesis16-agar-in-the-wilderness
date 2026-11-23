@@ -1,5 +1,5 @@
 // 03 · Apart from the others, the small tent; an indigo veil hangs on a line beside it, lifting in the wind.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [20, 1.1, -1.0], "target": [11.5, 1.2, -8.5], "fov": 34};

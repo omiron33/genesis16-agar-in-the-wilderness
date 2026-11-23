@@ -1,5 +1,5 @@
 // 38 · The eye of light lies in the still water of the spring, reflected.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-4.5, 0.9, 1.0], "target": [1.0, -1.3, 2.0], "fov": 44};

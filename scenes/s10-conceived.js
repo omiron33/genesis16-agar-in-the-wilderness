@@ -1,5 +1,5 @@
 // 10 · Sunrise behind the small tent: a new day comes up over the hills beyond it.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [6.2, 0.8, -2.6], "target": [13, 1.9, -15], "fov": 36};

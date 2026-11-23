@@ -1,5 +1,5 @@
 // 35 · The Milky Way over the dunes, star beyond star, the dunes going on to the horizon.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [0, 30, 30], "target": [0, 60, -300], "fov": 56};

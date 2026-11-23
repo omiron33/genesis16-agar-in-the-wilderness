@@ -1,5 +1,5 @@
 // 18 · The wind tears the indigo veil from its line; it tumbles away over the ground towards the open country.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [20, 1.0, -2], "target": [14.6, 1.0, -9], "fov": 40};

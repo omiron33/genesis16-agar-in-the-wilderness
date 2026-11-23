@@ -1,5 +1,5 @@
 // 43 · Evening: a fresh line of footprints comes back over the hill to the camp, where the lamps are being lit.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [34, 2.0, 30], "target": [0, 0.6, -2], "fov": 38};

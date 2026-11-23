@@ -1,5 +1,5 @@
 // 01 · Low through the dry grass towards the great tent; the wind moves the grass and the tent cloth.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-14, 0.6, 26], "target": [0, 1.2, 0], "fov": 36};

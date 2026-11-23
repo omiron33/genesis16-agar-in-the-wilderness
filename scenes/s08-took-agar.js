@@ -1,5 +1,5 @@
 // 08 · In the late light, a trail of a woman's footprints in the dust leads from the small tent across to Abram's.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [16, 7, 4], "target": [-1, 0, -6.5], "fov": 38};

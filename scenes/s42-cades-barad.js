@@ -1,5 +1,5 @@
 // 42 · High above: the spring, its palms and the well in the morning desert, between two lines of cliffs.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [34, 26, 46], "target": [0, 0, 0], "fov": 40};

@@ -1,5 +1,5 @@
 // 36 · First grey light under a low ceiling of cloud over the spring; the deck glows faintly in the east.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-9, 1.2, 9], "target": [45.786, 9.675999999999998, 18.66], "fov": 54};

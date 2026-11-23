@@ -1,5 +1,5 @@
 // 07 · Ten years: from a hill above the camp the sun crosses the sky again and again; the tents stay.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-30, 14, 40], "target": [0, 0, 0], "fov": 40};

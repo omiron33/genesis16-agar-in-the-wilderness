@@ -1,5 +1,5 @@
 // 17 · Abram's tent: the camera draws back from its dark doorway.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-8.0, 1.0, 1.2], "target": [-11, 0.9, -5], "fov": 34};

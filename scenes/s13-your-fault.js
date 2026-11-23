@@ -1,5 +1,5 @@
 // 13 · Noon, hard and white: the camp with short black shadows; the wind lifts dust between the tents.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-20, 1.6, 14], "target": [0, 1.3, -3], "fov": 36};

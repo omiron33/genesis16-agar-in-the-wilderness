@@ -1,5 +1,5 @@
 // 41 · Low across the stones of the well-head, to the spring, the palms and the eye of light over them.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-10.5, 0.8, 4.2], "target": [44.286, 14.276, 13.86], "fov": 56};

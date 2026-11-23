@@ -1,5 +1,5 @@
 // 11 · The small tent in full morning light, the veil on its line, the camp beyond.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [20, 2.4, -16], "target": [6, 1, -6], "fov": 40};

@@ -1,5 +1,5 @@
 // 00 · The hill country in the late afternoon; far off, the black tents of Abram's camp under one acacia. The title stands over the land.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-60, 9, 70], "target": [0, 1, 0], "fov": 34};

@@ -56,7 +56,7 @@ scene('title', '0s', 'The hill country in the late afternoon; far off, the black
       lyric=dict(lines=[], title=True, plane="standing(inView(from, 0, 0.18, 60), from, 0.9, 3)"), hold='the title over the opening bars')
 scene('camp', '7.6s', 'Low through the dry grass towards the great tent; the wind moves the grass and the tent cloth.',
       U(HILLS, GOLDEN, CAMP), C([-14, 0.6, 26], [0, 1.2, 0], 36), C([-10, 0.55, 19], [0, 1.3, 0], 36),
-      lyric=dict(lines=[], gauge='GENESIS 16', plane=lo(0.42, 30, 0.4, 3)))
+      lyric=dict(lines=[], plane=lo(0.42, 30, 0.4, 3)))
 scene('no-children', 0, 'The open front of Sara\'s great tent: in the shade, an empty rug and one lamp; no child\'s things anywhere.',
       U(HILLS, GOLDEN, CAMP), C([3.0, 0.9, 9.0], [0, 0.7, 0], 34), C([1.8, 0.85, 7.0], [0, 0.7, 0], 34), lamps='[[0.3, 0.45, 0.2, 4.0]]',
       lyric=dict(lines=['Sara, Abram’s wife'], plane=lo(0.55, 12, 0.66)))
@@ -66,12 +66,12 @@ scene('maid', 1, 'Apart from the others, the small tent; an indigo veil hangs on
 scene('kept-me', 2, 'The great tent and Abram\'s tent side by side, the low sun behind them; the acacia\'s long shadow.',
       U(HILLS, GOLDEN, CAMP), C([8, 1.4, 20], [-5, 1.5, -2], 38), C([4, 1.3, 21], [-6, 1.6, -2], 38),
       lyric=dict(lines=['Sara said to Abram', 'from having children'], plane=lo(0.52, 22, 0.7)), hold='Sara\'s proposal over two lines')
-scene('through-her', 4, 'Close on the indigo veil, the sun shining through the linen.',
-      U(HILLS, GOLDEN, CAMP, VEIL_LINE), C([16.6, 1.25, -6.6], [14.6, 0.9, -9.4], 38), C([16.2, 1.15, -7.0], [14.5, 0.85, -9.4], 38),
+scene('through-her', 4, 'Close and low on the indigo veil lifting on its line, the camp soft behind it.',
+      U(HILLS, GOLDEN, CAMP, VEIL_LINE, uAperture=0.045, uFocus=2.1, uVeilBlow=0.8), C([16.2, 0.95, -7.9], [14.6, 1.0, -9.4], 40), C([15.9, 0.9, -8.2], [14.5, 1.05, -9.4], 40), samples=16,
       lyric=dict(lines=['so I may have children'], plane=lo(0.55, 6, 0.6)), hold='one line and the bar after it')
-scene('listened', 5, 'Evening comes on: at the door of the great tent a lamp is lit.',
-      U(HILLS, DUSK, CAMP), C([5, 0.7, 11], [0, 0.9, 0], 34), C([3.5, 0.65, 9], [0, 0.95, 0], 34), exposure=1.3, lamps=f'[{SARA_LAMP}]',
-      update="u.uLI.value[0] = 2.2 * ease.inOut3((t - P.from - 0.8) / 1.2);",
+scene('listened', 5, 'Evening: close on the great tent as a lamp is lit inside; its light comes through the seams of the cloth.',
+      U(HILLS, DUSK, CAMP, uAperture=0.03, uFocus=2.6), C([-4.6, 0.9, 0.6], [-3.9, 1.1, -1.2], 40), C([-4.4, 0.95, 0.3], [-3.9, 1.15, -1.3], 40), exposure=1.4, lamps='[[-2.6, 0.6, -0.6, 3.0]]',
+      update="u.uLI.value[0] = 3.0 * ease.inOut3((t - P.from - 0.6) / 1.0);", samples=16,
       lyric=dict(lines=['Abram listened to Sara'], plane=lo(0.5, 12)))
 scene('ten-years', 6, 'Ten years: from a hill above the camp the sun crosses the sky again and again; the tents stay.',
       U(HILLS, AFTERNOON, CAMP), C([-30, 14, 40], [0, 0, 0], 40), C([-26, 13, 38], [0, 0.5, 0], 40),
@@ -103,7 +103,7 @@ scene('rope', 13, 'Low by the small tent in the hard noon light: its ropes taut 
       lyric=dict(lines=['I gave my maid to you'], plane=lo(0.6, 8, 0.7), ink=DARK, shade=0.85))
 scene('judge', 14, 'The camera tips up from the camp into the blazing white sun: let the Lord judge.',
       U(HILLS, NOON, CAMP, uSunDir=sun(159, 32)), C([-8, 1.2, 18], [0, 2.0, 0], 40), C([-8, 1.2, 18], [1, 13, -6], 40), exposure=0.8,
-      lyric=dict(lines=['I am dishonored'], plane=lo(-0.5, 20), ink=DARK, shade=0.9))
+      lyric=dict(lines=['I am dishonored'], anchorAt=0.9, plane=lo(0.35, 20), ink=DARK, shade=0.5))
 scene('between', 15, 'The great tent and the small tent, and the bare ground between them, framed square.',
       U(HILLS, NOON, CAMP, uSunDir=sun(-170, 55)), C([4.8, 1.3, 13], [4.8, 0.8, -4], 40), C([4.8, 1.25, 11.5], [4.8, 0.8, -4], 40),
       lyric=dict(lines=['between you and me'], plane=lo(0.5, 14), ink=DARK, shade=0.85))
@@ -114,8 +114,9 @@ scene('afflicted', 18, 'The wind tears the indigo veil from its line; it tumbles
       U(HILLS, HEAT, CAMP, VEIL_LINE, uLand=0, uVeilBlow=1.0), C([20, 1.0, -2], [14.6, 1.0, -9], 40), C([22, 1.2, 1], [19, 0.6, -7], 40),
       update="const k = ease.in2((t - P.from - 2.2) / 4.5); u.uVeil.value.set(14.6 + 9 * k, 1.55 - 1.2 * Math.min(1, k * 2.5), -9.4 + 6 * k); u.uVeilTilt.value = 0.35 + 1.1 * Math.min(1, k * 1.5); u.uVeilYaw.value = -0.7 + 1.6 * k;",
       lyric=dict(lines=['Sara afflicted Agar'], plane=lo(0.55, 14), ink=DARK, shade=0.85), hold='the line is drawn out: Agar is driven out', samples=16)
-scene('flight', '108.6s', 'The desert: a single line of footprints climbs the long back of a dune into the glare.',
-      U(DESERT, HEAT, uSunDir=sun(160, 14), uFlat=[0, 0, 0], uFlatR=4, uSteps=[0, 2.5, 0, 0], uStepsN=40, uStepsDir=3.14159), C([0.8, 1.5, 6], [0, 3.0, -30], 44), C([0.6, 1.9, 4], [0, 3.5, -34], 44),
+scene('flight', '108.6s', 'Low over the sand: one of her footprints, and the wind already filling it, the trail running on up the dune.',
+      U(DESERT, HEAT, uSunDir=sun(95, 16), uFlat=[0, 0, 0], uFlatR=4, uSteps=[0, 2.5, 0, 0], uStepsN=40, uStepsDir=3.14159, uMie=1.2, uDust=0.4), C([0.35, 0.6, 4.2], [0.0, 0.0, 2.4], 40), C([0.3, 0.7, 4.0], [0.0, 0.05, 2.0], 40), samples=16,
+      update="u.uStepsFill.value = 0.75 * ease.inOut3(x(t)); u.uWindT.value = t * 30.0;",
       lyric=dict(lines=[], gauge=False, plane=lo(0.5, 14)), hold='the instrumental: the flight')
 scene('wilderness', '114.6s', 'High above: the tiny line of footprints across an endless field of dunes; heat haze.',
       U(DESERT, HEAT, uSunDir=sun(160, 16), uFlat=[0, 0, 0], uFlatR=4, uSteps=[0, 20, 0, 0], uStepsN=120, uStepsDir=3.14159), C([8, 26, 30], [0, 16, -90], 44), C([5, 27, 24], [0, 17, -100], 44),
@@ -136,8 +137,9 @@ scene('angel', 21, 'Over the water, a light gathers: the angel of the Lord. Its 
 scene('come-from', 22, 'The light over the water, the camera drifting round it at the edge of the spring.',
       U(SPR, BLUE, uAngel=[0, 2.2, -0.6], uAngelI=3.0), C([4, 1.2, 6], [0, 2.4, -0.6], 40), C([5.2, 1.0, 5.0], [0, 2.6, -0.6], 40), exposure=1.3,
       lyric=dict(lines=['where have you come from'], plane=lo(0.5, 14)))
-scene('fleeing', 23, 'At the water\'s edge: the indigo veil lies where it was dropped.',
-      U(SPR, BLUE, uAngel=[0, 2.2, -0.6], uAngelI=3.0, uVeilOn=1, uVeil=[3.4, 0.03, 3.2], uVeilYaw=2.2, uVeilTilt=1.5, uVeilBlow=0.0, uSkinOn=0), C([6.4, 1.6, 7.4], [2.6, -0.1, 2.8], 36), C([5.9, 1.5, 6.8], [2.6, -0.1, 2.8], 36), exposure=1.35,
+scene('fleeing', 23, 'Low at the water\'s edge: the indigo veil where it was dropped; a drop falls into the spring.',
+      U(SPR, BLUE, uAngel=[0, 2.2, -0.6], uAngelI=3.0, uVeilOn=1, uVeil=[3.4, 0.03, 3.2], uVeilYaw=2.2, uVeilTilt=1.5, uVeilBlow=0.0, uSkinOn=0, uAperture=0.035, uFocus=2.3, uDropOn=1, uDrop=[2.3, 1.7]), C([5.0, 0.45, 4.7], [2.6, -0.2, 2.4], 40), C([4.8, 0.42, 4.4], [2.5, -0.2, 2.2], 40), exposure=1.35, samples=16,
+      update="u.uDropT.value = P.from + 2.6;",
       lyric=dict(lines=['She said, “I am fleeing'], plane=lo(0.55, 7, 0.68)), hold='Agar\'s answer and the breath after it')
 scene('angel-said', 24, 'The light rises over the spring; its reflection breaks in the rings of the water.',
       U(SPR, BLUE, uAngelI=3.0, uRings=0.8), C([-4, 0.6, 7], [0, 2.0, 0], 40), C([-3.2, 0.55, 6.2], [0, 2.6, 0], 40), exposure=1.35,
@@ -185,14 +187,14 @@ scene('named', 36, 'First grey light under a low ceiling of cloud over the sprin
       update="u.uEye.value = 0.12 * ease.inOut3(x(t));",
       lyric=dict(lines=['She named the Lord'], plane=lo(-0.5, 20)))
 scene('sees-me', 37, 'El Roi: the cloud opens like an eye in the east, the sun in it; shafts of light fall across the desert onto the spring.',
-      U(DAWNC, **eye(cA, DSUN), uEye=0.12, uRays=1.0), C([-8, 1.1, 8], [-8 + DSUN[0] * 60, 1.1 + DSUN[1] * 60 - 10, 8 + DSUN[2] * 60], 58), C([-7.4, 1.0, 7.4], [-7.4 + DSUN[0] * 60, 1.0 + DSUN[1] * 60 - 6, 7.4 + DSUN[2] * 60], 58), exposure=1.1,
+      U(DAWNC, **eye(cA, DSUN), uEye=0.12, uRays=1.0, uPalms=2), C([2, 1.0, 12], [2 + DSUN[0] * 60, 1.0 + DSUN[1] * 60 - 10, 12 + DSUN[2] * 60], 62), C([2.3, 0.95, 11.8], [2.3 + DSUN[0] * 60, 0.95 + DSUN[1] * 60 - 4, 11.8 + DSUN[2] * 60], 40), exposure=1.1,
       update="u.uEye.value = 0.12 + 0.88 * ease.inOut3((t - P.from - 0.2) / 2.6); u.uRays.value = 1.6 * ease.inOut3((t - P.from - 0.6) / 2.0);",
       lyric=dict(lines=['“You are God who sees me'], plane=lo(-0.5, 18, 0.74)), samples=16)
 scene('openly-seen', 38, 'The eye of light lies in the still water of the spring, reflected.',
       U(DAWNC, **eye([4, 0.7, -4], DSUN), uEye=1.0, uRays=1.6, uRings=0.15), C([-4.5, 0.9, 1.0], [1.0, -1.3, 2.0], 44), C([-4.1, 1.0, 0.8], [1.4, -1.2, 1.8], 44), exposure=1.1,
       lyric=dict(lines=['She said, “I have openly'], plane=lo(0.52, 9, 0.7)))
 scene('appeared', 39, 'Wide over the desert: the eye wide open, its light running out over the sand to the palms.',
-      U(DAWNC, **eye([-40, 12, 30], DSUN), uEye=1.0, uRays=1.6), C([-40, 12, 30], [-40 + DSUN[0] * 60, 12 + DSUN[1] * 60 - 16, 30 + DSUN[2] * 60], 54), C([-34, 13, 26], [-34 + DSUN[0] * 60, 13 + DSUN[1] * 60 - 14, 26 + DSUN[2] * 60], 54), exposure=1.05,
+      U(DAWNC, **eye([-40, 12, 30], DSUN), uEye=1.0, uRays=1.6, uPalms=2), C([-40, 12, 30], [-40 + DSUN[0] * 60, 12 + DSUN[1] * 60 - 16, 30 + DSUN[2] * 60], 54), C([-34, 13, 26], [-34 + DSUN[0] * 60, 13 + DSUN[1] * 60 - 14, 26 + DSUN[2] * 60], 54), exposure=1.05,
       lyric=dict(lines=['him who appeared'], plane=lo(-0.5, 30)), samples=16)
 WELL = dict(uWellOn=1, uWellP=[-7.5, 0, 3])
 scene('the-well', 40, 'The well-head of stones beside the spring, in the long morning light.',
@@ -231,11 +233,14 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.makedirs(os.path.join(R, 'scenes'), exist_ok=True)
 js = lambda v: json.dumps(v)
 
+# scenes whose final plates were rendered with the first world library and are kept as they are
+KEEP = {'angel', 'come-from', 'angel-said', 'night-falls', 'multiply', 'with-child', 'ismael', 'heard', 'end'}
 def scene_js(i, s):
     name = f"s{i:02d}-{s['slug']}"
+    wl = 'world.js' if s['slug'] in KEEP else 'world2.js'
     uni = ', '.join(f"{k}: {js(v)}" for k, v in s['uniforms'].items())
     return name, f"""// {i:02d} · {s['about']}
-import {{ WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease }} from '/song/lib/world.js';
+import {{ WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease }} from '/song/lib/{wl}';
 import {{ grade }} from '/song/lib/look.js';
 
 const A = {js(s['A'])};
@@ -286,7 +291,7 @@ for f in os.listdir(os.path.join(R, 'scenes')):
 DAYINK = {'camp', 'no-children', 'maid', 'kept-me', 'through-her', 'conceived', 'pregnant', 'looked-down', 'your-fault', 'rope', 'judge', 'between', 'in-your-hands', 'afflicted', 'flight', 'wilderness', 'cades-barad'}
 for s in S:
     if s['slug'] in DAYINK and 'ink' not in s['lyric']:
-        s['lyric']['ink'] = DARK; s['lyric']['shade'] = 0.85
+        s['lyric']['ink'] = DARK; s['lyric']['shade'] = 0.5
 for i, s in enumerate(S):
     name, code = scene_js(i, s)
     open(os.path.join(R, 'scenes', name + '.js'), 'w').write(code)
@@ -303,7 +308,7 @@ print(r.stdout, r.stderr)
 film = json.load(open('film.json'))
 film['samples'] = 8
 film['samplePreset'] = 'dove'
-film['lyric'] = {'haloSpread': 9, 'shade': 0.6}
+film['lyric'] = {'haloSpread': 5, 'shade': 0.35}
 film['gates'] = {'maxCameraOnlySeconds': 1e9, 'restFraction': 0}
 film['optOuts'] = {'live': 'Genesis 8 way, live gate off for this film', 'rest-to-rest': 'Genesis 8 way, rest-to-rest warning off for this film'}
 for sc, s in zip(film['scenes'], S):

@@ -6,5 +6,5 @@ export default (P) => layer(P, scene(P), {
   lines: ["Sara, Abram\u2019s wife"],
   plane: (from) => standing(inView(from, 0, 0.55, 12), from, 0.66, 2.6),
   ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.85,
+  shade: 0.5,
 });

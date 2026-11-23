@@ -1,5 +1,5 @@
 // 14 · Low by the small tent in the hard noon light: its ropes taut in the gusts.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [16.5, 0.4, -3.5], "target": [11, 1.1, -8], "fov": 40};

@@ -1,5 +1,5 @@
 // 16 · The great tent and the small tent, and the bare ground between them, framed square.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [4.8, 1.3, 13], "target": [4.8, 0.8, -4], "fov": 40};

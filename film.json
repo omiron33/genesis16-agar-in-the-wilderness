@@ -47,14 +47,16 @@
    "from": 28.88,
    "to": 37.31,
    "hold": "one line and the bar after it",
-   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "samples": 16
   },
   {
    "id": "06",
    "scene": "s06-listened",
    "from": 37.31,
    "to": 40.36,
-   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "samples": 16
   },
   {
    "id": "07",
@@ -152,7 +154,8 @@
    "from": 108.76,
    "to": 114.86,
    "hold": "the instrumental: the flight",
-   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "samples": 16
   },
   {
    "id": "20",
@@ -199,7 +202,8 @@
    "to": 143.09,
    "hold": "Agar's answer and the breath after it",
    "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
-   "offBeat": "cut in the breath before \"She said, \u201cI am fleeing from my mistress Sara.\u201d\", which follows the previous line with no beat between"
+   "offBeat": "cut in the breath before \"She said, \u201cI am fleeing from my mistress Sara.\u201d\", which follows the previous line with no beat between",
+   "samples": 16
   },
   {
    "id": "26",
@@ -364,8 +368,8 @@
  ],
  "samplePreset": "dove",
  "lyric": {
-  "haloSpread": 9,
-  "shade": 0.6
+  "haloSpread": 5,
+  "shade": 0.35
  },
  "gates": {
   "maxCameraOnlySeconds": 1000000000.0,

@@ -1,5 +1,5 @@
 // 02 · The open front of Sara's great tent: in the shade, an empty rug and one lamp; no child's things anywhere.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [3.0, 0.9, 9.0], "target": [0, 0.7, 0], "fov": 34};

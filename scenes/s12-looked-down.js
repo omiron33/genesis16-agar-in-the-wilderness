@@ -1,5 +1,5 @@
 // 12 · From the rise where the small tent stands, looking down on the great tent below.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [11, 4.5, -11], "target": [0, 0.6, 1], "fov": 36};

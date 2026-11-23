@@ -1,5 +1,5 @@
 // 15 · The camera tips up from the camp into the blazing white sun: let the Lord judge.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-8, 1.2, 18], "target": [0, 2.0, 0], "fov": 40};

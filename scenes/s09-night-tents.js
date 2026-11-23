@@ -1,5 +1,5 @@
 // 09 · Night over the camp: Abram's tent lit, the small tent dark, the great tent's lamp low. Stars.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-4, 1.2, 26], "target": [0, 2.5, -6], "fov": 44};

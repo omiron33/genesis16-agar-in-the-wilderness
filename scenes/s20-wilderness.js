@@ -1,5 +1,5 @@
 // 20 · High above: the tiny line of footprints across an endless field of dunes; heat haze.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [8, 26, 30], "target": [0, 16, -90], "fov": 44};

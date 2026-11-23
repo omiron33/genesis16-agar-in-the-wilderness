@@ -1,5 +1,5 @@
 // 04 · The great tent and Abram's tent side by side, the low sun behind them; the acacia's long shadow.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [8, 1.4, 20], "target": [-5, 1.5, -2], "fov": 38};

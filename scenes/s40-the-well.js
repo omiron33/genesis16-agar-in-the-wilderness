@@ -1,5 +1,5 @@
 // 40 · The well-head of stones beside the spring, in the long morning light.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-11, 1.0, 6.5], "target": [-7.5, 0.4, 3], "fov": 36};

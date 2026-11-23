@@ -1,5 +1,5 @@
 // 27 · Looking back up the line of footprints, towards the far hills of home, as the last light goes.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [1.5, 1.0, 2.5], "target": [16, 4.2, 24], "fov": 38};

@@ -1,5 +1,5 @@
 // 33 · A moonlit wind over open dunes; sand streams off their crests.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [0, 3.0, 20], "target": [0, 1.5, -60], "fov": 40};

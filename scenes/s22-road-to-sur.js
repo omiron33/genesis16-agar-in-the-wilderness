@@ -1,5 +1,5 @@
 // 22 · Wide: the spring and its palms small in the desert; the wall of the escarpment (Sur) catches the last light.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [-30, 9, 40], "target": [0, 2, 0], "fov": 40};

@@ -1,5 +1,5 @@
 // 45 · Night over the camp, three lamps lit, the acacia black against the stars.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [20, 1.0, 22], "target": [2, 2.6, -2], "fov": 44};

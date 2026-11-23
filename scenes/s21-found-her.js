@@ -1,5 +1,5 @@
 // 21 · Dusk in the wilderness: the footprints come down to a spring in a hollow under three palms.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [16, 3.2, 24], "target": [2, 0, 2], "fov": 38};

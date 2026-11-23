@@ -1,5 +1,5 @@
 // 34 · Moonlit dunes in hard ranks, one against the next, to the horizon.
-import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world.js';
+import { WORLD_GLSL, WORLD_UNIFORMS, cam, setLamps, skyLight, keys, ease } from '/song/lib/world2.js';
 import { grade } from '/song/lib/look.js';
 
 const A = {"pos": [0, 16, 12], "target": [20, 4, -140], "fov": 38};
