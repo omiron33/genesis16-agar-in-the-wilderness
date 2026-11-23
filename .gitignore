@@ -1,0 +1,26 @@
+.DS_Store
+._*
+node_modules/
+out/
+media/
+movies/
+.dashboard/
+intake/*
+!intake/sung-lyrics.txt
+.env
+.env.*
+*.log
+tools/dash.py
+__pycache__/
+concept/mockups/out/
+# machine-specific render orchestration (kept locally)
+tools/draft.sh
+tools/final.sh
+tools/finish.sh
+tools/layers-mac.sh
+tools/overlay-loop.sh
+tools/stills.sh
+tools/machines-*.json
+tools/watchdog.sh
+tools/dash.py
+tools/draft-layers.sh

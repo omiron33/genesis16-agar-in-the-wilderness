@@ -1,0 +1,492 @@
+{
+ "title": "Agar in the Wilderness (Genesis 16)",
+ "fps": 60,
+ "tier": "ultra",
+ "samples": 8,
+ "scenes": [
+  {
+   "at": "0s",
+   "slug": "title",
+   "screen": "The hill country in the late afternoon; far off, the black tents of Abram's camp under one acacia. The title stands over the land.",
+   "purpose": "The hill country in the late afternoon; far off, the black tents of Abram's camp under one acacia. The title stands over the land.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the title over the opening bars"
+  },
+  {
+   "at": "7.6s",
+   "slug": "camp",
+   "screen": "Low through the dry grass towards the great tent; the wind moves the grass and the tent cloth.",
+   "purpose": "Low through the dry grass towards the great tent; the wind moves the grass and the tent cloth.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 0,
+   "slug": "no-children",
+   "screen": "The open front of Sara's great tent: in the shade, an empty rug and one lamp; no child's things anywhere.",
+   "purpose": "The open front of Sara's great tent: in the shade, an empty rug and one lamp; no child's things anywhere.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 1,
+   "slug": "maid",
+   "screen": "Apart from the others, the small tent; an indigo veil hangs on a line beside it, lifting in the wind.",
+   "purpose": "Apart from the others, the small tent; an indigo veil hangs on a line beside it, lifting in the wind.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 2,
+   "slug": "kept-me",
+   "screen": "The great tent and Abram's tent side by side, the low sun behind them; the acacia's long shadow.",
+   "purpose": "The great tent and Abram's tent side by side, the low sun behind them; the acacia's long shadow.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "Sara's proposal over two lines"
+  },
+  {
+   "at": 4,
+   "slug": "through-her",
+   "screen": "Close on the indigo veil, the sun shining through the linen.",
+   "purpose": "Close on the indigo veil, the sun shining through the linen.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "one line and the bar after it"
+  },
+  {
+   "at": 5,
+   "slug": "listened",
+   "screen": "Evening comes on: at the door of the great tent a lamp is lit.",
+   "purpose": "Evening comes on: at the door of the great tent a lamp is lit.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 6,
+   "slug": "ten-years",
+   "screen": "Ten years: from a hill above the camp the sun crosses the sky again and again; the tents stay.",
+   "purpose": "Ten years: from a hill above the camp the sun crosses the sky again and again; the tents stay.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 7,
+   "slug": "took-agar",
+   "screen": "In the late light, a trail of a woman's footprints in the dust leads from the small tent across to Abram's.",
+   "purpose": "In the late light, a trail of a woman's footprints in the dust leads from the small tent across to Abram's.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": "51.9s",
+   "slug": "night-tents",
+   "screen": "Night over the camp: Abram's tent lit, the small tent dark, the great tent's lamp low. Stars.",
+   "purpose": "Night over the camp: Abram's tent lit, the small tent dark, the great tent's lamp low. Stars.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the instrumental bars between the verses"
+  },
+  {
+   "at": 9,
+   "slug": "conceived",
+   "screen": "Sunrise behind the small tent: a new day comes up over the hills beyond it.",
+   "purpose": "Sunrise behind the small tent: a new day comes up over the hills beyond it.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 10,
+   "slug": "pregnant",
+   "screen": "The small tent in full morning light, the veil on its line, the camp beyond.",
+   "purpose": "The small tent in full morning light, the veil on its line, the camp beyond.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 11,
+   "slug": "looked-down",
+   "screen": "From the rise where the small tent stands, looking down on the great tent below.",
+   "purpose": "From the rise where the small tent stands, looking down on the great tent below.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 12,
+   "slug": "your-fault",
+   "screen": "Noon, hard and white: the camp with short black shadows; the wind lifts dust between the tents.",
+   "purpose": "Noon, hard and white: the camp with short black shadows; the wind lifts dust between the tents.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "Sara's complaint and the bars after it"
+  },
+  {
+   "at": 13,
+   "slug": "rope",
+   "screen": "Low by the small tent in the hard noon light: its ropes taut in the gusts.",
+   "purpose": "Low by the small tent in the hard noon light: its ropes taut in the gusts.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 14,
+   "slug": "judge",
+   "screen": "The camera tips up from the camp into the blazing white sun: let the Lord judge.",
+   "purpose": "The camera tips up from the camp into the blazing white sun: let the Lord judge.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 15,
+   "slug": "between",
+   "screen": "The great tent and the small tent, and the bare ground between them, framed square.",
+   "purpose": "The great tent and the small tent, and the bare ground between them, framed square.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 16,
+   "slug": "in-your-hands",
+   "screen": "Abram's tent: the camera draws back from its dark doorway.",
+   "purpose": "Abram's tent: the camera draws back from its dark doorway.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 18,
+   "slug": "afflicted",
+   "screen": "The wind tears the indigo veil from its line; it tumbles away over the ground towards the open country.",
+   "purpose": "The wind tears the indigo veil from its line; it tumbles away over the ground towards the open country.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the line is drawn out: Agar is driven out"
+  },
+  {
+   "at": "108.6s",
+   "slug": "flight",
+   "screen": "The desert: a single line of footprints climbs the long back of a dune into the glare.",
+   "purpose": "The desert: a single line of footprints climbs the long back of a dune into the glare.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the instrumental: the flight"
+  },
+  {
+   "at": "114.6s",
+   "slug": "wilderness",
+   "screen": "High above: the tiny line of footprints across an endless field of dunes; heat haze.",
+   "purpose": "High above: the tiny line of footprints across an endless field of dunes; heat haze.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 19,
+   "slug": "found-her",
+   "screen": "Dusk in the wilderness: the footprints come down to a spring in a hollow under three palms.",
+   "purpose": "Dusk in the wilderness: the footprints come down to a spring in a hollow under three palms.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 20,
+   "slug": "road-to-sur",
+   "screen": "Wide: the spring and its palms small in the desert; the wall of the escarpment (Sur) catches the last light.",
+   "purpose": "Wide: the spring and its palms small in the desert; the wall of the escarpment (Sur) catches the last light.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 21,
+   "slug": "angel",
+   "screen": "Over the water, a light gathers: the angel of the Lord. Its reflection lies on the spring.",
+   "purpose": "Over the water, a light gathers: the angel of the Lord. Its reflection lies on the spring.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 22,
+   "slug": "come-from",
+   "screen": "The light over the water, the camera drifting round it at the edge of the spring.",
+   "purpose": "The light over the water, the camera drifting round it at the edge of the spring.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 23,
+   "slug": "fleeing",
+   "screen": "At the water's edge: the indigo veil lies where it was dropped.",
+   "purpose": "At the water's edge: the indigo veil lies where it was dropped.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "Agar's answer and the breath after it"
+  },
+  {
+   "at": 24,
+   "slug": "angel-said",
+   "screen": "The light rises over the spring; its reflection breaks in the rings of the water.",
+   "purpose": "The light rises over the spring; its reflection breaks in the rings of the water.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 25,
+   "slug": "return",
+   "screen": "Looking back up the line of footprints, towards the far hills of home, as the last light goes.",
+   "purpose": "Looking back up the line of footprints, towards the far hills of home, as the last light goes.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the hard command, sung soberly over two lines"
+  },
+  {
+   "at": 27,
+   "slug": "night-falls",
+   "screen": "Night has come over the spring; the light stands over the water and the stars come out.",
+   "purpose": "Night has come over the spring; the light stands over the water and the stars come out.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 28,
+   "slug": "multiply",
+   "screen": "The camera tips up from the palms into the Milky Way: more stars than can be counted.",
+   "purpose": "The camera tips up from the palms into the Milky Way: more stars than can be counted.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the promise over two lines"
+  },
+  {
+   "at": 30,
+   "slug": "with-child",
+   "screen": "The light over the spring and its reflection, one above the other, between the dark palms.",
+   "purpose": "The light over the spring and its reflection, one above the other, between the dark palms.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 31,
+   "slug": "ismael",
+   "screen": "From the spring's source, ring after ring spreads out across the starlit water.",
+   "purpose": "From the spring's source, ring after ring spreads out across the starlit water.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 32,
+   "slug": "heard",
+   "screen": "Low over the water: the rings reach every shore, and the light's reflection trembles on them.",
+   "purpose": "Low over the water: the rings reach every shore, and the light's reflection trembles on them.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 33,
+   "slug": "wild",
+   "screen": "A moonlit wind over open dunes; sand streams off their crests.",
+   "purpose": "A moonlit wind over open dunes; sand streams off their crests.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 34,
+   "slug": "against-all",
+   "screen": "Moonlit dunes in hard ranks, one against the next, to the horizon.",
+   "purpose": "Moonlit dunes in hard ranks, one against the next, to the horizon.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 35,
+   "slug": "brothers",
+   "screen": "The Milky Way over the dunes, star beyond star, the dunes going on to the horizon.",
+   "purpose": "The Milky Way over the dunes, star beyond star, the dunes going on to the horizon.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the line and the turn of the music to the bridge"
+  },
+  {
+   "at": 36,
+   "slug": "named",
+   "screen": "First grey light under a low ceiling of cloud over the spring; the deck glows faintly in the east.",
+   "purpose": "First grey light under a low ceiling of cloud over the spring; the deck glows faintly in the east.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 37,
+   "slug": "sees-me",
+   "screen": "El Roi: the cloud opens like an eye in the east, the sun in it; shafts of light fall across the desert onto the spring.",
+   "purpose": "El Roi: the cloud opens like an eye in the east, the sun in it; shafts of light fall across the desert onto the spring.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 38,
+   "slug": "openly-seen",
+   "screen": "The eye of light lies in the still water of the spring, reflected.",
+   "purpose": "The eye of light lies in the still water of the spring, reflected.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 39,
+   "slug": "appeared",
+   "screen": "Wide over the desert: the eye wide open, its light running out over the sand to the palms.",
+   "purpose": "Wide over the desert: the eye wide open, its light running out over the sand to the palms.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 40,
+   "slug": "the-well",
+   "screen": "The well-head of stones beside the spring, in the long morning light.",
+   "purpose": "The well-head of stones beside the spring, in the long morning light.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 41,
+   "slug": "whom-seen",
+   "screen": "Low across the stones of the well-head, to the spring, the palms and the eye of light over them.",
+   "purpose": "Low across the stones of the well-head, to the spring, the palms and the eye of light over them.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 42,
+   "slug": "cades-barad",
+   "screen": "High above: the spring, its palms and the well in the morning desert, between two lines of cliffs.",
+   "purpose": "High above: the spring, its palms and the well in the morning desert, between two lines of cliffs.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the line and the breath before the last verse"
+  },
+  {
+   "at": 43,
+   "slug": "bore-a-son",
+   "screen": "Evening: a fresh line of footprints comes back over the hill to the camp, where the lamps are being lit.",
+   "purpose": "Evening: a fresh line of footprints comes back over the hill to the camp, where the lamps are being lit.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 44,
+   "slug": "named-ismael",
+   "screen": "The small tent at dusk, its lamp lit; the indigo veil hangs on its line again.",
+   "purpose": "The small tent at dusk, its lamp lit; the indigo veil hangs on its line again.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "at": 45,
+   "slug": "eighty-six",
+   "screen": "Night over the camp, three lamps lit, the acacia black against the stars.",
+   "purpose": "Night over the camp, three lamps lit, the acacia black against the stars.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the last verse sung over the sleeping camp"
+  },
+  {
+   "at": "252.6s",
+   "slug": "end",
+   "screen": "The camp at night under the whole sky; the small tent's lamp breathes slowly like a cradle rocking; the camera rises.",
+   "purpose": "The camp at night under the whole sky; the small tent's lamp breathes slowly like a cradle rocking; the camera rises.",
+   "leaves": "cut on the beat",
+   "carries": "the land and the sky of one world",
+   "words": "on a plane placed in the scene, lit to match",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "hold": "the cradle pulse of the outro and the end title"
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "fps": 60,
+ "tier": "ultra",
+ "samples": 8,
+ "title": "Agar in the Wilderness (Genesis 16)",
+ "scenes": [
+  {
+   "id": "00",
+   "scene": "s00-title",
+   "from": 0.0,
+   "to": 7.81,
+   "hold": "the title over the opening bars",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "01",
+   "scene": "s01-camp",
+   "from": 7.81,
+   "to": 11.63,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "02",
+   "scene": "s02-no-children",
+   "from": 11.63,
+   "to": 16.21,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "03",
+   "scene": "s03-maid",
+   "from": 16.21,
+   "to": 19.9,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "04",
+   "scene": "s04-kept-me",
+   "from": 19.9,
+   "to": 28.88,
+   "hold": "Sara's proposal over two lines",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "05",
+   "scene": "s05-through-her",
+   "from": 28.88,
+   "to": 37.31,
+   "hold": "one line and the bar after it",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "06",
+   "scene": "s06-listened",
+   "from": 37.31,
+   "to": 40.36,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "07",
+   "scene": "s07-ten-years",
+   "from": 40.36,
+   "to": 44.303,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "08",
+   "scene": "s08-took-agar",
+   "from": 44.303,
+   "to": 51.54,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"Sara took Agar the Egyptian, her maid,\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "09",
+   "scene": "s09-night-tents",
+   "from": 51.54,
+   "to": 56.12,
+   "hold": "the instrumental bars between the verses",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "10",
+   "scene": "s10-conceived",
+   "from": 56.12,
+   "to": 59.94,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "11",
+   "scene": "s11-pregnant",
+   "from": 59.94,
+   "to": 63.75,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "12",
+   "scene": "s12-looked-down",
+   "from": 63.75,
+   "to": 68.185,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "13",
+   "scene": "s13-your-fault",
+   "from": 68.185,
+   "to": 76.72,
+   "hold": "Sara's complaint and the bars after it",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"Sara said to Abram, \u201cThis wrong is your fault.\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "14",
+   "scene": "s14-rope",
+   "from": 76.72,
+   "to": 81.3,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "15",
+   "scene": "s15-judge",
+   "from": 81.3,
+   "to": 88.17,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "16",
+   "scene": "s16-between",
+   "from": 88.17,
+   "to": 93.5,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "17",
+   "scene": "s17-in-your-hands",
+   "from": 93.5,
+   "to": 100.37,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "18",
+   "scene": "s18-afflicted",
+   "from": 100.37,
+   "to": 108.76,
+   "hold": "the line is drawn out: Agar is driven out",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "samples": 16
+  },
+  {
+   "id": "19",
+   "scene": "s19-flight",
+   "from": 108.76,
+   "to": 114.86,
+   "hold": "the instrumental: the flight",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "20",
+   "scene": "s20-wilderness",
+   "from": 114.86,
+   "to": 120.2,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "21",
+   "scene": "s21-found-her",
+   "from": 120.2,
+   "to": 123.789,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "22",
+   "scene": "s22-road-to-sur",
+   "from": 123.789,
+   "to": 127.549,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"in the wilderness, on the road to Sur.\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "23",
+   "scene": "s23-angel",
+   "from": 127.549,
+   "to": 131.05,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"The angel said, \u201cAgar, Sara\u2019s maid,\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "24",
+   "scene": "s24-come-from",
+   "from": 131.05,
+   "to": 135.63,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"where have you come from, and where are you going?\u201d\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "25",
+   "scene": "s25-fleeing",
+   "from": 135.63,
+   "to": 143.09,
+   "hold": "Agar's answer and the breath after it",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"She said, \u201cI am fleeing from my mistress Sara.\u201d\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "26",
+   "scene": "s26-angel-said",
+   "from": 143.09,
+   "to": 146.89,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "27",
+   "scene": "s27-return",
+   "from": 146.89,
+   "to": 156.7,
+   "hold": "the hard command, sung soberly over two lines",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "28",
+   "scene": "s28-night-falls",
+   "from": 156.7,
+   "to": 159.76,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "29",
+   "scene": "s29-multiply",
+   "from": 159.76,
+   "to": 171.97,
+   "hold": "the promise over two lines",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "samples": 16
+  },
+  {
+   "id": "30",
+   "scene": "s30-with-child",
+   "from": 171.97,
+   "to": 176.093,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "31",
+   "scene": "s31-ismael",
+   "from": 176.093,
+   "to": 180.23,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"you will bear a son. Name him Ismael,\", which follows the previous line with no beat between"
+  },
+  {
+   "id": "32",
+   "scene": "s32-heard",
+   "from": 180.23,
+   "to": 185.57,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "33",
+   "scene": "s33-wild",
+   "from": 185.57,
+   "to": 188.63,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "samples": 16
+  },
+  {
+   "id": "34",
+   "scene": "s34-against-all",
+   "from": 188.63,
+   "to": 193.84,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "35",
+   "scene": "s35-brothers",
+   "from": 193.84,
+   "to": 203.64,
+   "hold": "the line and the turn of the music to the bridge",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "36",
+   "scene": "s36-named",
+   "from": 203.64,
+   "to": 208.915,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "37",
+   "scene": "s37-sees-me",
+   "from": 208.915,
+   "to": 212.8,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"\u201cYou are God who sees me.\u201d\", which follows the previous line with no beat between",
+   "samples": 16
+  },
+  {
+   "id": "38",
+   "scene": "s38-openly-seen",
+   "from": 212.8,
+   "to": 216.556,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "39",
+   "scene": "s39-appeared",
+   "from": 216.556,
+   "to": 220.43,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
+   "offBeat": "cut in the breath before \"him who appeared to me.\u201d\", which follows the previous line with no beat between",
+   "samples": 16
+  },
+  {
+   "id": "40",
+   "scene": "s40-the-well",
+   "from": 220.43,
+   "to": 225.01,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "41",
+   "scene": "s41-whom-seen",
+   "from": 225.01,
+   "to": 229.59,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "42",
+   "scene": "s42-cades-barad",
+   "from": 229.59,
+   "to": 237.0,
+   "hold": "the line and the breath before the last verse",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "43",
+   "scene": "s43-bore-a-son",
+   "from": 237.0,
+   "to": 240.78,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "44",
+   "scene": "s44-named-ismael",
+   "from": 240.78,
+   "to": 245.32,
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "45",
+   "scene": "s45-eighty-six",
+   "from": 245.32,
+   "to": 252.23,
+   "hold": "the last verse sung over the sleeping camp",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  },
+  {
+   "id": "46",
+   "scene": "s46-end",
+   "from": 252.23,
+   "to": 273.08,
+   "hold": "the cradle pulse of the outro and the end title",
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
+  }
+ ],
+ "samplePreset": "dove",
+ "lyric": {
+  "haloSpread": 9,
+  "shade": 0.6
+ },
+ "gates": {
+  "maxCameraOnlySeconds": 1000000000.0,
+  "restFraction": 0
+ },
+ "optOuts": {
+  "live": "Genesis 8 way, live gate off for this film",
+  "rest-to-rest": "Genesis 8 way, rest-to-rest warning off for this film"
+ }
+}
