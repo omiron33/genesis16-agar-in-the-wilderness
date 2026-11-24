@@ -1,8 +1,8 @@
 # Critic pass on the draft (2026-11-23, one pass)
 
-Read from one frame per scene of the 30 fps draft plates (`out/review/draft-plates-sheet*.png`), the
-draft clips themselves, and five rounds of Mac review stills. Checked anatomy, text in pictures, stick
-figures, clutter, blood, framing, the theology, and the complaints on earlier films.
+A self-review by the author of the code, not an independent critic. It used single frames from 41 of
+the 47 draft scenes (s28, s30, s33, s35, s44 and s46 were missing from the sheet), three frames from
+each of three draft clips, and Mac review stills. The draft was not watched end to end.
 
 Fixed before the final, in the final's code:
 - A black band across the land at the horizon. Grazing rays ran out of march steps over the flat
@@ -33,15 +33,17 @@ Fixed before the final, in the final's code:
 - Clouds were added to the golden afternoon of the household.
 - The tent interior is lit by its lamp, and the tents have woven panels and wall folds.
 
-Checked and fine:
-- No people or figures are drawn anywhere. Agar is present only through the veil and the footprints.
-- No text inside the pictures. The verse annotations and the YEAR and EIGHTY-SIX YEARS gauges are in
-  the lyric overlay layer.
-- No blood. No flashing.
-- The angel is light only, and his words are set in gold small capitals.
-- Every line is on screen as it is sung. Dark ink is used on bright daylight skies.
+Seen in the frames: no people or figures, no text in the pictures, no blood; the angel is light only.
+Not checked at the time: flashing, motion, and whether every line is on screen as it is sung (a line
+in s15 was in fact cut off). 71 of 322 aligned words had no Whisper match within 0.6 s. Many are name
+spellings (Agar, Sara, Sur), but "and now that she is pregnant" is not in Whisper's text at all.
 
-Left as is (minor): the tents read as dark goat-hair blocks at a distance, and the palm fronds show
-slight banding up close.
+# Known faults in the final (frames from 42 finished segments, 2026-11-23)
 
-Verdict: render the final.
+- s19: the footprints are gone about half way through; the rest of the shot is blank grey sand.
+- s04, s15: dark words cross the black tree crown and are hard to read.
+- s29, s37: the line sits against the bottom edge of the frame.
+- s40, s41: the well is faceted blue-grey blocks, not convincing fieldstone.
+- The tents are still near-black shapes in daylight scenes; the dropped veil (s25) is a flat blue slab.
+- s21 to s32 night and spring scenes rendered before the realism pass keep the even scatter of rocks.
+- s34: flat blue ground with visible noise. Palms and acacia were not reworked.
