@@ -29,6 +29,9 @@ The angel of the Lord is shown only as light.
   typefaces (EB Garamond, Inter Tight) and the voices. The narrator is roman. Sara, Abram and Agar
   are italic. The angel speaks in small capitals in the signal gold, and Agar's naming of God is
   italic gold.
+- `lib/world4.js`, `lib/props.js`, `lib/cloth.js`, `lib/type3.js` and `tools/early.py`: the opening (s00 to
+  s18), where objects act: a simulated indigo veil (Agar) and red cloth (Sara), Abram's staff, and the
+  things of the camp. Run `tools/early.py` after `tools/scenes.py`.
 - `scenes/sNN-*.js` and `scenes/sNN-*.lyric.js`: one picture and one lyric layer per scene,
   generated from the authored table in `tools/scenes.py`.
 - `data/lyrics.json`, `data/audio.json`: the sung words, force-aligned to the separated vocal and

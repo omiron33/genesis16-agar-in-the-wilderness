@@ -1,10 +1,5 @@
-// The words of s17-in-your-hands, drawn as their own layer on a plane placed in its world.
+// The words of s17-in-your-hands, on a plane that travels with its camera.
 import scene from '/song/scenes/s17-in-your-hands.js';
-import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/lib/type.js';
+import { layer, gauge, titleCard, ease } from '/song/lib/type3.js';
 
-export default (P) => layer(P, scene(P), {
-  lines: ["Abram said to Sara", "Treat her as you think"],
-  plane: (from) => standing(inView(from, 0, 0.68, 12), from, 0.66, 2.6),
-  ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.25,
-});
+export default (P) => layer(P, scene(P), { lines: ["Abram said to Sara", "Treat her as you think"], sy: -0.7, sx: 0, frac: 0.6, aspect: 2.6, shade: 0.5, ink: '243, 235, 222' });

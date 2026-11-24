@@ -1,11 +1,5 @@
-// The words of s15-judge, drawn as their own layer on a plane placed in its world.
+// The words of s15-judge, on a plane that travels with its camera.
 import scene from '/song/scenes/s15-judge.js';
-import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/lib/type.js';
+import { layer, gauge, titleCard, ease } from '/song/lib/type3.js';
 
-export default (P) => layer(P, scene(P), {
-  lines: ["I am dishonored"],
-  plane: (from) => standing(inView(from, 0, -0.2, 20), from, 0.66, 2.6),
-  ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.5,
-  anchorAt: 0.6,
-});
+export default (P) => layer(P, scene(P), { lines: ["I am dishonored"], sy: 0.8, sx: -0.12, frac: 0.6, aspect: 3, shade: 0.3, ink: '44, 30, 20' });

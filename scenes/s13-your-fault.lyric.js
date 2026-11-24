@@ -1,11 +1,5 @@
-// The words of s13-your-fault, drawn as their own layer on a plane placed in its world.
+// The words of s13-your-fault, on a plane that travels with its camera.
 import scene from '/song/scenes/s13-your-fault.js';
-import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/lib/type.js';
+import { layer, gauge, titleCard, ease } from '/song/lib/type3.js';
 
-export default (P) => layer(P, scene(P), {
-  lines: ["Sara said to Abram"],
-  plane: (from) => standing(inView(from, -0.48, 0.64, 20), from, 0.44, 2.6),
-  ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.25,
-  anchorAt: 0.8,
-});
+export default (P) => layer(P, scene(P), { lines: ["Sara said to Abram"], sy: -0.74, sx: 0, frac: 0.62, aspect: 3, shade: 0.45, ink: '243, 235, 222' });

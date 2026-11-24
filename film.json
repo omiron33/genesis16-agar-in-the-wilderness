@@ -47,16 +47,14 @@
    "from": 28.88,
    "to": 37.31,
    "hold": "one line and the bar after it",
-   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
-   "samples": 16
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
   },
   {
    "id": "06",
    "scene": "s06-listened",
    "from": 37.31,
    "to": 40.36,
-   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15",
-   "samples": 16
+   "overlay": "lyrics as their own sharp type layer, as on Genesis 8 and 15"
   },
   {
    "id": "07",
