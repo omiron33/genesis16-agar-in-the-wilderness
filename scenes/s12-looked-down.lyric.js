@@ -5,6 +5,6 @@ import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/li
 export default (P) => layer(P, scene(P), {
   lines: ["she looked down"],
   plane: (from) => standing(inView(from, 0, -0.5, 14), from, 0.72, 2.6),
-  ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.85,
+  ink: '243, 235, 222', gaugeInk: '243, 235, 222',
+  shade: 0.25,
 });

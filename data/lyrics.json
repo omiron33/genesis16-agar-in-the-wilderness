@@ -1480,8 +1480,8 @@
 },
 {
 "w": "\u201cI",
-"start": 136.31,
-"end": 136.37
+"start": 137.05,
+"end": 137.11
 },
 {
 "w": "am",
@@ -1996,11 +1996,11 @@
 {
 "w": "who",
 "start": 217.056,
-"end": 217.816
+"end": 217.776
 },
 {
 "w": "appeared",
-"start": 218.296,
+"start": 217.776,
 "end": 219.296
 },
 {
@@ -2213,5 +2213,6 @@
 "start": 252.218,
 "end": 252.418
 }
-]
+],
+"timingChecks": "two local CTC models agree within 0.15 s on 314 of 322 words; line starts after a pause land within 0.25 s of the voice onset; machine estimates"
 }

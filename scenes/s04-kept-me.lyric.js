@@ -4,7 +4,7 @@ import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/li
 
 export default (P) => layer(P, scene(P), {
   lines: ["Sara said to Abram", "from having children"],
-  plane: (from) => standing(inView(from, 0, 0.52, 22), from, 0.7, 2.6),
+  plane: (from) => standing(inView(from, 0.3, 0.56, 22), from, 0.56, 2.6),
   ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.5,
+  shade: 0.25,
 });

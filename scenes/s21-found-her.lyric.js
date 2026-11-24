@@ -4,5 +4,6 @@ import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/li
 
 export default (P) => layer(P, scene(P), {
   lines: ["The Lord\u2019s angel found her"],
-  plane: (from) => standing(inView(from, 0, 0.5, 20), from, 0.72, 2.6),
+  plane: (from) => standing(inView(from, 0, 0.5, 20), from, 0.66, 2.6),
+  anchorAt: 0.9,
 });

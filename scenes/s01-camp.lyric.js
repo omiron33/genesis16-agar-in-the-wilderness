@@ -6,5 +6,5 @@ export default (P) => layer(P, scene(P), {
   lines: [],
   plane: (from) => standing(inView(from, 0, 0.42, 30), from, 0.4, 3),
   ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.5,
+  shade: 0.25,
 });

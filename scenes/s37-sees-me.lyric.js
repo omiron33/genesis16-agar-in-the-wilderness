@@ -4,5 +4,6 @@ import { layer, standing, lying, inView, gauge, titleCard, ease } from '/song/li
 
 export default (P) => layer(P, scene(P), {
   lines: ["\u201cYou are God who sees me"],
-  plane: (from) => standing(inView(from, 0, -0.5, 18), from, 0.74, 2.6),
+  plane: (from) => standing(inView(from, 0, -0.6, 18), from, 0.95, 3.0),
+  anchorAt: 0.95,
 });

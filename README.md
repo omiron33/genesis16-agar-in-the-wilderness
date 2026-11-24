@@ -16,7 +16,7 @@ sharp type layer on planes placed in that world. No person is drawn. Agar is see
 leaves: an indigo veil on a line, footprints that the wind fills in, the veil dropped by the water.
 The angel of the Lord is shown only as light.
 
-- `lib/world.js`: the film's one raymarched world.
+- `lib/world3.js`: the film's one raymarched world (`world.js` and `world2.js` are v1).
   - The land: stony hill country round the camp, and the desert with wind-cut dunes and ripples, a
     stepped sandstone escarpment, the spring's hollow and the footprints.
   - The air: single scattering (Rayleigh, Mie and ozone), aerial perspective, a low dust layer, and

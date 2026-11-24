@@ -6,5 +6,5 @@ export default (P) => layer(P, scene(P), {
   lines: ["She had an Egyptian maid"],
   plane: (from) => standing(inView(from, 0, 0.5, 16), from, 0.7, 2.6),
   ink: '44, 30, 20', gaugeInk: '44, 30, 20',
-  shade: 0.5,
+  shade: 0.25,
 });

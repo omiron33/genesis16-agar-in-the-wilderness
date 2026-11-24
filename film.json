@@ -368,8 +368,8 @@
  ],
  "samplePreset": "dove",
  "lyric": {
-  "haloSpread": 5,
-  "shade": 0.35
+  "haloSpread": 7,
+  "shade": 0.28
  },
  "gates": {
   "maxCameraOnlySeconds": 1000000000.0,
