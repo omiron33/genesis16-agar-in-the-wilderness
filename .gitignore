@@ -26,3 +26,4 @@ tools/dash.py
 tools/draft-layers.sh
 shot-plan.json
 tools/shot_plan.py
+docs/PROCEDURE.local.md
